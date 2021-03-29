@@ -25,5 +25,7 @@ home page: https://www.youtube.com/watch?v=0pmvuKzBIqM
 landing page: https://www.youtube.com/watch?v=YJPgoOCOBFg
 applications: https://www.vecteezy.com/video/1798489-view-of-person-typing-on-calculator-4k
 
+Calculator Link: This website was not made by me, I am using this site solely as placeholder.
+
 Images:
 Both were made by me.
