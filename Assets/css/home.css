@@ -1,0 +1,501 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    font-size: 100%; 
+    font: inherit;
+    vertical-align: baseline;
+} 
+    /* HTML5 display-role reset for older browsers */ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block; 
+} 
+body { 
+    line-height: 1; 
+} 
+ol, ul { 
+    list-style: none; 
+} 
+blockquote, q { 
+    quotes: none; 
+} 
+blockquote:before, blockquote:after, q:before, q:after { 
+    content: ''; 
+    content: none; 
+} 
+table { 
+    border-collapse: collapse; border-spacing: 0; 
+}
+    /* Property of https://meyerweb.com/eric/tools/css/reset/ */
+
+    /* Background Video Start */
+
+* {
+    box-sizing: border-box;
+}
+      
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+    
+body{
+    position: relative;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+    /* Background Video End */
+
+    /* Header Start */
+header{
+    box-sizing: unset;
+    display: flex;
+    flex-direction: row;
+    width: 96%;
+    margin: 1% 2% 2% 2%;
+    height: 175px;
+    background-color: rgba(2, 2, 179, 0.2);
+    border: solid 2px #fff;
+    z-index: 0;
+}
+    
+nav{
+    position: absolute;
+    width: 96%;
+    text-align: right;
+    margin-top: 145px;
+    z-index: 2;  
+    opacity: 100% !important;  
+}
+    
+header > nav > a{
+    width: 15%;
+    margin-right: 2%;
+    padding: 5px 25px 5px 25px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 100% !important;
+    font-family: 'Cinzel', serif;
+    border: solid 1px #fff;
+    z-index: 2;
+}
+    
+h1{
+    position: absolute;
+    font-size: 600%;
+    padding-top: 1%;
+    padding-left: 1%;
+    opacity: 100% !important;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    z-index: 2;
+    height: 0px;
+}
+    
+nav > a:hover{
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+    
+nav > a:active {
+    box-shadow: 0 0 20px #000 inset;
+}
+
+    /* Header End */
+
+    /* Contact Form Start */
+
+#contact{
+    box-sizing: unset;
+    background-color: rgba(2, 2, 179, 0.2);
+    width: 100%;
+    border: solid #fff 2px;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+}
+    
+#contact > section{
+    opacity: 100% !important;
+}
+    
+#message{
+    width: 95%;
+    height: auto;
+    resize: none;
+    background-color: rgb(2, 2, 179);
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+    
+    
+#phone_number, #email, #name{
+    width: 90%;
+    background-color: rgb(2, 2, 179);
+}
+    
+    
+#submit{
+    font-family: 'Cinzel', serif;
+    width: 90%;
+    background-color: rgba(2, 2, 179, 0.2);
+    color: #fff;
+    border: 1px #fff solid;
+    margin-bottom: 1%;
+}
+    
+#submit:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+    
+#submit:active{
+    box-shadow: 0 0 20px #000 inset;
+}
+    
+#contact > h2{
+    margin: 10px auto 5px auto;
+    border: solid #fff 1px;
+    width: 95%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+    
+input{
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    display: block;
+    margin: 1% auto;
+}
+    
+::placeholder{
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    opacity: 1;
+}
+    
+:-ms-input-placeholder{
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    opacity: 1;
+}
+    
+::-ms-input-placeholder{
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    opacity: 1;
+}
+
+    /* Contact Form End */
+
+    /* Main Start */
+main{
+    width: 100%;
+}
+
+    /* Sidebar Start */
+
+#sidebar{
+    float: right;
+    width: 25%;
+    max-width: 465px;
+    margin-bottom: 2%;
+    margin-right: 1.8%;
+    margin-top: -31.5%;
+}
+
+    /* About Section Start */
+
+#bio{
+    position: static;
+    width: 100%;
+    background-color: rgba(2, 2, 179, 0.2);
+    border: solid 2px #fff;
+    margin-bottom: 40px;
+}
+    
+#bioscript{
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border: solid #fff 1px;
+    height: auto;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    text-align: center;
+    padding: 1% 2%;
+    opacity: 100% !important;
+}
+    
+#biohead{
+    width: 96%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #fff 1px;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    text-align: center;
+    opacity: 100% !important;
+    z-index: 1;
+}
+    
+div > img{
+    width: 96%;
+    height: auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    z-index: 0;
+    border: solid #fff 1px;
+}
+
+    /* About Section End */
+
+    /* Application Section Start */
+
+.apps{
+    margin: 5% 20% 20% 10%;
+    z-index: 1;
+}
+
+ul > li > section{
+    box-sizing:unset;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(2, 2, 179, 1);
+    border: #fff solid 1px;
+    padding: 1% 1% 1% 1%;
+    margin-top: -1.25%;
+    margin-left: 3.5%;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+}
+    
+.calc {
+    justify-content: center;
+    width: 100%;
+    z-index: -1;
+    border: #fff solid 1px;
+}
+    
+#work{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 70%;
+    
+}
+    
+#work > a{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.calc:hover{
+    box-shadow: 0 0 400px #fff;
+}
+
+    /* Application Section End */
+
+    /* Footer Section Start */
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    width: 96%;
+    border: solid #fff 1px;
+    font-family: 'Cinzel', serif;
+    color: #fff;
+    text-align: center;
+    opacity: 100% !important;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+}
+
+#footer{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+    
+#credit{
+    font-size: 130%;
+}
+
+    /* Footer Section End */
+
+    /* MediaQuery */
+
+@media screen and (max-width: 1920px) {
+    #work{
+        grid-template-columns: auto auto;
+    }
+    #sidebar{
+        margin-top: -65%;
+    }
+}
+
+@media screen and (max-width: 1475px) {
+    #sidebar{
+        display: flex;
+        flex-direction: row;
+        float: unset;
+        margin-top: .5%;
+        width: 90%;
+        max-width: unset;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+    #bio{
+        width: 50%;
+        height: 660px;
+    }
+
+    #contact{
+        position: static;
+        width: 50%;
+        height: 656px;
+        margin-left: 5%;
+    }
+
+    #work{
+        width: 100%;
+    }
+
+    #message{
+        height: 380px;
+    }
+}
+
+@media screen and (max-width: 1130px){
+    #credit{
+        font-size: 100%;
+    }
+}
+
+
+@media screen and (max-width: 995px){
+    #footer{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    header{
+        text-align: center;
+        height: 80px;
+    }
+
+    h1{
+        width: 20%;
+        font-size: 200%;
+        text-align: left;
+    }
+
+    #work{
+        width: 100%;
+        grid-template-columns: auto;
+        padding: 0px;
+    }
+
+    div > img {
+        margin-bottom: 30%;
+    }
+
+    nav{
+        margin-top: 35px;
+    }
+}
+
+@media screen and (max-width: 670px){
+    header > nav > a{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 634px){
+    h1{
+        font-size: 200%;
+        width: 20%;
+        text-align: left;
+        padding-right: 26%;
+        padding-bottom: 14%;
+    }
+
+    footer > p > span{
+        display: none;
+    }
+
+    nav{
+        margin-right: 30px;
+        width: 94%;
+    }
+
+    header > nav > a{
+        padding: 30px 10px 20px 10px;
+        margin-right: 0%;
+    }
+
+}
+
+@media screen and (max-width: 511px){
+    #bioscript{
+        font-size: 90%;
+    }
+
+    div > img{
+        margin-bottom: 62%;
+    }
+}
+
+@media screen and (max-width: 470px){
+    div > img{
+        margin-bottom: 40%;
+    }
+
+    header > nav > a{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 430px){
+    div > img{
+        margin-bottom: 20%;
+    }
+    header > nav > a{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    #bioscript{
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 370px){
+    h1{
+        font-size: 100%;
+        margin-top: 20px;
+    }
+}
