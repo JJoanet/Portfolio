@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/css/home.css">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="Assets/Images/UpArrow.png">
     <title>Jeremy J Joanet</title>
 </head>
 <body>
@@ -39,8 +40,8 @@
                 <img src="./Assets/Images/Hw5-Screenshot.PNG" alt="Work Day Scheduler" class = "calc">
             </a></li>
 
-            <li class = "apps" id = "app4"><section>Javascript Quiz : <a class = "portLink" href="https://github.com/Vygoth/Javascript-Quiz" target="_blank">Github</a></section><a href = "https://vygoth.github.io/Javascript-Quiz/" target = "_blank">
-                <img src="./Assets/Images/Hw4-Screenshot.PNG" alt="Javascript Quiz" class = "calc">
+            <li class = "apps" id = "app4"><section>Rate My Workplace : <a class = "portLink" href="https://github.com/melanieuhrich/Rate-My-Workplace" target="_blank">Github</a></section><a href = "https://rate-my-workplace.herokuapp.com/" target = "_blank">
+                <img src="./Assets/Images/RateMyWorkplace.PNG" alt="Javascript Quiz" class = "calc">
             </a></li>
 
             <li class = "apps" id = "app5"><section>Password Generator : <a class = "portLink" href="https://github.com/Vygoth/Password-Generator" target="_blank">Github</a></section><a href = "https://vygoth.github.io/Password-Generator/" target = "_blank">
@@ -70,7 +71,6 @@
 
                 <p class = "bioscript">Github : <a class = "portLink" href="https://github.com/Vygoth" target="_blank">Vygoth</a></p>
                 <p class = "bioscript">LinkedIn : <a class = "portLink" href="https://www.linkedin.com/in/jeremy-joanet-1a3a2a204/" target="_blank">Jeremy Joanet</a></p>
-                <img src="./Assets/Images/My_CV.png" alt="Resume">
             </div>
     
             <form id = "contact">
@@ -93,11 +93,17 @@
         </div>
     </main>
 
-    <script src = "./Assets/js/contact.js"></script>
+    <div id="resume-container">
+        <object data="pdf-path">
+            <embed src="Assets/Images/DevCV.pdf" id="resume">
+        </object>
+    </div>
 
     <footer>
         <p id = "footer">Phone:   (312) 589-0236 :<span id = "credit">: Created by Jeremy Joanet, thank you for visiting! :</span>: Email:   JeremyJoanet@protonmail.com</p>
     </footer>
+
+    <script src = "./Assets/js/contact.js"></script>
 
 </body>
 </html>
