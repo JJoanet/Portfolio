@@ -30,4 +30,4 @@ landing page: https://www.youtube.com/watch?v=YJPgoOCOBFg
 applications: https://www.vecteezy.com/video/1798489-view-of-person-typing-on-calculator-4k
 
 ## Screenshot
-![Screenshot](./assets/img/screenshot.png)
+![Screenshot](./Assets/Images/FirstPortfolio.PNG)
